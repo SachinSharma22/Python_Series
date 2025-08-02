@@ -18,3 +18,25 @@
 # print(name[1:7:3])
 # print(name[2:8:5])
 # print(name[3:9:2])
+
+# print("I'm sachin")
+# print("Hi I am 'sachin'")
+# print('Hii I am "SACHIN"')
+
+# str = "sachin"
+# print(str[2])
+# # Use ends='' to print any value in same line in python
+# for char in str:
+#     print(char,end=' ')
+
+# To check anything present in string use in 
+txt = "My self sachin sharma"
+# print('self' in txt)
+
+# if 'sachin' in txt:
+#     print("yes sachin is present in txt")
+# else:
+#     print("Not presented")
+
+# if "ravi" not in txt:
+#     print("ravi not in sentence")
