@@ -50,10 +50,17 @@
 
 # to create a global varibale inside a function you can use global keyword
 
-def myFun() :
-    global a
-    a = "sachin"
-    print(a)
+# def myFun() :
+#     global a
+#     a = "sachin"
+#     print(a)
 
-myFun()
-print(a)
+# myFun()
+# print(a)
+
+# print(5 + 5.6)
+
+a = "30.3"
+b = float(a) # convert str into float
+print(type(a))
+print(type(b))
