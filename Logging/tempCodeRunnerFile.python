@@ -1,0 +1,5 @@
+ message")
+logging.info("This is an info message")
+logging.warning("This is a warning messagr")
+logging.error("this is an error message")
+logging.critical("This is a cr

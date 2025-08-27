@@ -1,0 +1,23 @@
+# Import the Logging Module
+import logging
+
+# Step 3 Set Up the Basic Configuration
+# This line is used to see debug and info message because it can't show by default
+# logging.basicConfig(level=logging.DEBUG)
+
+# Step 4 Log to a File
+logging.basicConfig(filename='data_log', level=logging.DEBUG,
+                    filemode='w',
+                    encoding='utf-8',
+                     format='%(asctime)s - %(levelname)s - %(message)s)')
+
+# Step 2 Log Message
+logging.debug("This is a debug message")
+logging.info("This is an info message")
+logging.warning("This is a warning messagr")
+logging.error("this is an error message")
+logging.critical("This is a critical message")
+
+# asctime - The time when the event occurred.
+# levelname - The type of the log (for example, DEBUG, INFO)
+# message - The message we displaycd
